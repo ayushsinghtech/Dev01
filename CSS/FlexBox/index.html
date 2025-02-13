@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            place-items: center;
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            box-sizing: border-box;
+            border: 3px solid grey;
+            height:83vh;
+            align-items: center;
+            justify-content: space-around;
+            background-image: linear-gradient(to top right, rgb(140, 56, 140), rgb(35, 145, 255), rgb(161, 255, 161));
+            flex-wrap: wrap;
+            height:auto;
+        }
+        div{
+            min-width:240px;
+            height:10vh;
+            margin:2px;
+            background-image: linear-gradient(to top right, rgb(255, 214, 138), rgb(35, 145, 255), rgb(161, 255, 161));
+
+        }
+        .flexItem2{
+            order:3;
+            flex-grow: 1;
+        }
+        .flexItem3{
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <section class="flexContainer">
+        <div class="flexItem1">1</div>
+        <div class="flexItem2">2</div>
+        <div class="flexItem3">3</div>
+        <div class="flexItem4">4</div>
+        <div class="flexItem4">4</div>
+        <div class="flexItem4">4</div>
+        <div class="flexItem4">4</div>
+        <div class="flexItem4">4</div>
+        <!-- <div>
+            <h1>FLexBox</h1>
+            <p>Cascading Style Sheets is the backbone of modern web design, enabling developers to create visually stunning and highly responsive web pages with ease. It provides a structured way to control the layout, typography, colors, animations, and overall aesthetics of a website, ensuring a seamless and engaging user experience across different devices and screen sizes. With CSS, developers can define styles once and apply them across multiple pages, making design consistency effortless. The power of CSS extends further with features like Flexbox and Grid, which offer advanced layout mechanisms, eliminating the need for complex and outdated table-based structures. Media queries allow websites to adapt dynamically, providing a tailored experience for users on desktops, tablets, and mobile phones. Additionally, CSS animations and transitions bring interactivity and vibrancy to web interfaces, making elements smoothly fade, slide, scale, or rotate without relying on JavaScript. The introduction of CSS variables and custom properties has enhanced maintainability, enabling developers to create dynamic themes with minimal code changes. Furthermore, pre-processors like SASS and LESS extend CSS’s capabilities, offering features like nesting, mixins, and inheritance, making style management even more efficient. With frameworks like Bootstrap and Tailwind CSS, developers can build beautiful and functional user interfaces quickly by utilizing predefined classes and components. The constant evolution of CSS, with features such as container queries and subgrid, ensures that it remains at the forefront of web development, empowering designers to craft visually appealing and highly interactive experiences.</p>
+        </div> -->
+    </section>
+</body>
+</html>

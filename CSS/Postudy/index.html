@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        section{
+            display: grid;
+            place-items: center;
+        }
+        .parent{
+            position:relative;
+            top:25vh;
+            box-sizing: border-box;
+            height:50vh;
+            width:50vw;
+            background-image: linear-gradient(to right, skyblue, lightgreen);
+            border:2px solid goldenrod;
+            border-radius: 2px;
+        }
+        .child{
+            display:grid;
+            place-items: center;
+            position:absolute;
+            background-image: linear-gradient(to top right, rgb(181, 220, 222), rgb(141, 255, 232));
+            height:13vh;
+            width:12vw;
+        }
+        .child1{
+            left:0;
+            top:0;
+        }
+        .child2{
+            right:0;
+            top:0;
+        }
+        .child3{
+            bottom:0;
+            left:0;
+        }
+        .child4{
+            bottom:0;
+            right:0;
+        }
+        .child5{
+            top:18.5vh;
+            left:19vw;
+        }
+        h1{
+            position: fixed;
+            left:25%;
+            text-transform: capitalize;
+            margin:25px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="attach"><h1>CSS positions</h1></div>
+        <div class="parent">
+            <div class="child child1">ch1</div>
+            <div class="child child2">ch2</div>
+            <div class="child child3">ch3</div>
+            <div class="child child4">ch4</div>    
+            <div class="child child5">ch5</div>    
+        </div>
+    </section>
+</body>
+</html>

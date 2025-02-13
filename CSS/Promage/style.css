@@ -1,0 +1,22 @@
+section{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.s1{
+    background-image:url(img1.jpg);
+}
+.s2{
+    background-image:url(img2\ \(1\).jpg);
+}
+.s3{
+    background-image:url(img2\ \(2\).jpg);
+}
+.s11{
+    background-image:url(img3\ \(1\).jpg);
+}
+.s12{
+    background-image:url(img3\ \(2\).jpg);
+}
